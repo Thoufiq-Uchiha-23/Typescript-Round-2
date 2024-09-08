@@ -1,0 +1,11 @@
+MANDATORY STUFF :
+likhna kaha hai code ?
+chalayenge kaise code ?
+kya banane waale hai ?
+
+LET'S WRITE SOME CODE :
+Basic Types
++ Number, String, Boolean
++ Arrays, Tuples
++ Any, Unknown, Never, Void
++ Enums
