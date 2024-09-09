@@ -12,3 +12,11 @@ Basic Types
 + Arrays, Tuples
 + Any, Unknown, Never, Void
 + Enums
+
+Type Inference
+
+Union and Intersection Types
+
+Type Aliases
+
+Interfaces
