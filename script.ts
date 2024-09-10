@@ -14,7 +14,8 @@ Basic Types
 + Enums
 */
 // primitive examples
-let a : number;
+// let a : number;
+let a : string = "hey";
 
 // array example for references types
 let arr : [];
