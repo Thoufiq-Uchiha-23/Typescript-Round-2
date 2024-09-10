@@ -22,4 +22,6 @@ let arr : [];
 
 // If we directly give value then we don't need to
 // specify type
-let str = "hey";
+// let str = "hey";
+// if we have no value then we give type
+let str :string;
