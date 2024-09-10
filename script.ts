@@ -19,3 +19,7 @@ let a : string = "hey";
 
 // array example for references types
 let arr : [];
+
+// If we directly give value then we don't need to
+// specify type
+let str = "hey";
