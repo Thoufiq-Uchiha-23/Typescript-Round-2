@@ -45,3 +45,22 @@ console.log(arr2);
 let variable: unknown;
 variable = "12";
 variable = 12;
+
+// NEVER type - it's used during when function returns nothing and whenever fuction
+// of never type runs it'snot going to flow for other code
+
+function runInfinite(): never {
+  while (true) {
+    console.log("infinite run");
+  }
+}
+
+runInfinite();
+console.log("hey");
+
+// VOID: this means that the function will not return anything
+function abcd(): void {
+  console.log("hey");
+}
+
+abcd();
