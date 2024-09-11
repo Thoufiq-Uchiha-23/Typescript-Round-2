@@ -15,13 +15,23 @@ Basic Types
 */
 // primitive examples
 // let a : number;
-let a: string = "hey";
+let a = "hey";
 
 // array example for references types
-let arr: [];
+// let arr: [];
 
 // If we directly give value then we don't need to
 // specify type
 // let str = "hey";
 // if we have no value then we give type
-let str: string;
+// let variable: boolean;
+// let variable: number;
+// let variable: [];
+// let variable: string;
+
+// TUPLES
+let arr:[number, string] = [1, "hey"]
+let arr2: [boolean, number, string] = [false, 12, "hey"]
+
+console.log(arr);
+console.log(arr2);
