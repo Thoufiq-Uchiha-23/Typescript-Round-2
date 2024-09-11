@@ -20,3 +20,13 @@ Union and Intersection Types
 Type Aliases
 
 Interfaces
+
+Classes
++ Constructors
++ Public, Private, Protected Members
++ Readonly Properties
++ Getters and Setters
+
+Functions
++ Function Types
++ Optional and Default Parameters
