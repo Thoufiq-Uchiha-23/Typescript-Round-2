@@ -37,6 +37,11 @@ console.log(arr);
 console.log(arr2);
 
 // ANY type
-let variable: any;
+// let variable: any;
+// variable = "12";
+// variable = 12;
+
+// UNKNOWN - unknown is similar to any type with few differences
+let variable: unknown;
 variable = "12";
 variable = 12;
