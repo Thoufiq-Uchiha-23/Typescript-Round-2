@@ -67,42 +67,41 @@ abcd();
 
 // ENUMS: there are the custom types made by us as a group
 // Instead of
-let upDirection = "UP"
-let downDirection = "DOWN"
-let rightDirection = "RIGHT"
-let leftDirection = "LEFT"
+let upDirection = "UP";
+let downDirection = "DOWN";
+let rightDirection = "RIGHT";
+let leftDirection = "LEFT";
 
 // We can do as
 enum Direction {
-    top = "TOP",
-    left = "LEFT",
-    right = "RIGHT",
-    bottom = "BOTTOM",
+  top = "TOP",
+  left = "LEFT",
+  right = "RIGHT",
+  bottom = "BOTTOM",
 }
 
-Direction.top
+Direction.top;
 
 // TYPE INFERENCE - inference type is a type which infer/guesses on it's own of what type it is
 let a = 12;
-let b = 'a';
+let b = "a";
 let c = true;
 
 // UNION AND INTERSECTION TYPES
 // UNION : union type means we can keep more than one type where it uses or operation
 let variable: string | null;
 variable = null;
-variable = "harsh"
+variable = "harsh";
 
-function abcde(variable: number |  string) {
-    if (typeof variable === 'number') {
-        variable.toFixed(2);
-    }
-    else if (typeof variable === 'string') {
-        variable.toUpperCase()
-    }
+function abcde(variable: number | string) {
+  if (typeof variable === "number") {
+    variable.toFixed(2);
+  } else if (typeof variable === "string") {
+    variable.toUpperCase();
+  }
 }
 
-abcde(12)
-abcde("12")
-abcde("hero")
+abcde(12);
+abcde("12");
+abcde("hero");
 // abcde(true) // for this we get error bcoz we have not defined boolean value in the function
