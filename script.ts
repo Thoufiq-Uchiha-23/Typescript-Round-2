@@ -30,8 +30,13 @@ let a = "hey";
 // let variable: string;
 
 // TUPLES
-let arr:[number, string] = [1, "hey"]
-let arr2: [boolean, number, string] = [false, 12, "hey"]
+let arr: [number, string] = [1, "hey"];
+let arr2: [boolean, number, string] = [false, 12, "hey"];
 
 console.log(arr);
 console.log(arr2);
+
+// ANY type
+let variable: any;
+variable = "12";
+variable = 12;
