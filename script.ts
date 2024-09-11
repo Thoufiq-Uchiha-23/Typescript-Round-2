@@ -105,3 +105,40 @@ abcde(12);
 abcde("12");
 abcde("hero");
 // abcde(true) // for this we get error bcoz we have not defined boolean value in the function
+
+// INTERSECTION TYPES - It is the intersection or combination of 2 or more custom types using & operation
+// type - is used to make custom datatypes
+// Classmate type
+type Classmates = {
+  section: string;
+};
+// Students type
+type Students = {
+  name: string;
+};
+// Intersection of both Classmates and Students type
+type ClassmateInStudents = Classmates & Students;
+
+let classStudent: ClassmateInStudents = {
+  name: "thoufiq",
+  section: "a",
+};
+
+// Example 2
+type City = {
+  name: string;
+  population: number;
+};
+
+type Planet = {
+  name: string;
+  cities: number;
+};
+
+type CitiesInPlanet = City & Planet;
+
+let value: CitiesInPlanet = {
+  name: "Bengaluru",
+  population: 1200000000,
+  cities: 12,
+};
