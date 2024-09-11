@@ -64,3 +64,20 @@ function abcd(): void {
 }
 
 abcd();
+
+// ENUMS: there are the custom types made by us as a group
+// Instead of
+let upDirection = "UP"
+let downDirection = "DOWN"
+let rightDirection = "RIGHT"
+let leftDirection = "LEFT"
+
+// We can do as
+enum Direction {
+    top = "TOP",
+    left = "LEFT",
+    right = "RIGHT",
+    bottom = "BOTTOM",
+}
+
+Direction.top
