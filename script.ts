@@ -15,13 +15,13 @@ Basic Types
 */
 // primitive examples
 // let a : number;
-let a : string = "hey";
+let a: string = "hey";
 
 // array example for references types
-let arr : [];
+let arr: [];
 
 // If we directly give value then we don't need to
 // specify type
 // let str = "hey";
 // if we have no value then we give type
-let str :string;
+let str: string;
