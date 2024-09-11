@@ -15,7 +15,7 @@ Basic Types
 */
 // primitive examples
 // let a : number;
-let a = "hey";
+// let a = "hey";
 
 // array example for references types
 // let arr: [];
@@ -81,3 +81,9 @@ enum Direction {
 }
 
 Direction.top
+
+// TYPE INFERENCE - inference type is a type which guesses on it's own of what type it is
+let a = 12;
+let b = 'a';
+let c = true;
+
