@@ -42,9 +42,9 @@ console.log(arr2);
 // variable = 12;
 
 // UNKNOWN - unknown is similar to any type with few differences
-let variable: unknown;
-variable = "12";
-variable = 12;
+// let variable: unknown;
+// variable = "12";
+// variable = 12;
 
 // NEVER type - it's used during when function returns nothing and whenever fuction
 // of never type runs it'snot going to flow for other code
@@ -82,8 +82,27 @@ enum Direction {
 
 Direction.top
 
-// TYPE INFERENCE - inference type is a type which guesses on it's own of what type it is
+// TYPE INFERENCE - inference type is a type which infer/guesses on it's own of what type it is
 let a = 12;
 let b = 'a';
 let c = true;
 
+// UNION AND INTERSECTION TYPES
+// UNION : union type means we can keep more than one type where it uses or operation
+let variable: string | null;
+variable = null;
+variable = "harsh"
+
+function abcde(variable: number |  string) {
+    if (typeof variable === 'number') {
+        variable.toFixed(2);
+    }
+    else if (typeof variable === 'string') {
+        variable.toUpperCase()
+    }
+}
+
+abcde(12)
+abcde("12")
+abcde("hero")
+// abcde(true) // for this we get error bcoz we have not defined boolean value in the function
