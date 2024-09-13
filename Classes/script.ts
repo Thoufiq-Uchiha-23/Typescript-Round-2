@@ -104,3 +104,18 @@ class User {
     this.image = image;
   }
 }
+
+/* 
+ACCESS MODIFIERS
+PUBLIC, PRIVATE, PROTECTED MEMBERS
+ */
+
+class Pendrive2 {
+  name = "Pendrive"
+  getName(){
+    console.log(this.name);
+  }
+}
+
+let pen1 = new Pendrive2();
+pen1.name = "Super Pendrive"
