@@ -74,3 +74,34 @@ class Earphones {
 }
 let e1 = new Earphones("Apple", 25000);
 let e2 = new Earphones("Oppo", 2500);
+// User class
+class User {
+    // public name: string;
+    // public email: string;
+    // public password: string;
+    // public image: string;
+    constructor(name, email, password, image) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.image = image;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.image = image;
+    }
+}
+/*
+ACCESS MODIFIERS
+PUBLIC, PRIVATE, PROTECTED MEMBERS
+ */
+class Pendrive2 {
+    constructor() {
+        this.name = "Pendrive";
+    }
+    getName() {
+        console.log(this.name);
+    }
+}
+let pen1 = new Pendrive2();
+pen1.name = "Super Pendrive";
