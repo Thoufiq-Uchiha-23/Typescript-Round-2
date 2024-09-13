@@ -90,3 +90,17 @@ let e1 = new Earphones("Apple", 25000);
 let e2 = new Earphones("Oppo", 2500);
 
 
+// User class
+class User {
+  // public name: string;
+  // public email: string;
+  // public password: string;
+  // public image: string;
+
+  constructor(public name: string, public email: string, public password: string, public image: string){
+    this.name = name;
+    this.email = email;
+    this.password = password;
+    this.image = image;
+  }
+}
