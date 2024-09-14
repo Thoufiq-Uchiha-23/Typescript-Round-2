@@ -119,3 +119,13 @@ class Pendrive2 {
 
 let pen1 = new Pendrive2();
 pen1.name = "Super Pendrive"
+
+// Private
+
+class User2 {
+  private balance = 1200;
+}
+
+let u1 = new User2();
+// Property 'balance' is private and only accessible within class 'User2'
+// u1.balance = 12000
