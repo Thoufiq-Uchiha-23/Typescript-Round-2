@@ -164,3 +164,21 @@ class Abcd {
     this.balance = balance
   }
 }
+
+class Abcd2{
+  constructor(public readonly name:string){
+    this.name = name
+  }
+
+  getName(){
+    console.log(this.name);
+  }
+
+  // Cannot assign to 'name' because it is a read-only property.
+  // setName(name: string) {
+  //   this.name = name
+  // }
+}
+
+let abcd1 = new Abcd2("thoufiq");
+abcd1.getName()
