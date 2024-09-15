@@ -124,8 +124,43 @@ pen1.name = "Super Pendrive"
 
 class User2 {
   private balance = 1200;
+
+  getBalance(){
+    console.log(this.balance);
+  }
 }
 
 let u1 = new User2();
 // Property 'balance' is private and only accessible within class 'User2'
 // u1.balance = 12000
+
+// public - public matlab poori class main use karo aur bahar bhui access kar sakte ho class ke
+// via instance
+// private - private matlab sird class main hi wo element use ho sakta hai aap
+// usey baahar use nahi kar sakte
+
+// Protected - khudke class main bhi or dusre class main jahan woh extend hota hai
+class User3 {
+  protected balance = 1200
+}
+
+class Admin extends User3 {
+  private isAdmin = true;
+  getBalance () {
+    this.balance
+  } 
+}
+
+// public ek dum khula
+// private ek dum closed
+// protected khudke andar use karro and jo class aapke main class ko extend karey wha use karo
+
+// Ek bug yeh hai ki jab hum koi private var banate hai tab
+// agar usko kisi function usi ke class ke undar se dusre var ko dede fir us value
+// hum change kar sakte hai, so to fix that make fun/var private/protected
+class Abcd {
+  private balance = 1200;
+  protected setBalance(balance: number) {
+    this.balance = balance
+  }
+}
