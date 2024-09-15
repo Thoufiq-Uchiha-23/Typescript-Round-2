@@ -150,3 +150,14 @@ class Abcd {
         this.balance = balance;
     }
 }
+class Abcd2 {
+    constructor(name) {
+        this.name = name;
+        this.name = name;
+    }
+    getName() {
+        console.log(this.name);
+    }
+}
+let abcd1 = new Abcd2("thoufiq");
+abcd1.getName();
