@@ -161,3 +161,4 @@ class Abcd2 {
 }
 let abcd1 = new Abcd2("thoufiq");
 abcd1.getName();
+// Getters and Setters
