@@ -233,3 +233,8 @@ function bankai():string {
 // Anonymous Function - function with no name
 // function(): void{
 // }
+
+// Arrow Function
+// const rasengan = (): void => {
+//   console.log("hey");
+// }
