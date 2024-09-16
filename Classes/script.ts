@@ -293,3 +293,9 @@ let stringy: "thoufiq";
 stringy = "thoufiq";
 // Type '"thoufi"' is not assignable to type '"thoufiq"'
 // stringy = "thoufi"
+
+// Numeric Literals
+let number: 12;
+number = 12;
+// Type '13' is not assignable to type '12'
+// number = 13;
