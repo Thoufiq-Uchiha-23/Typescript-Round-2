@@ -184,3 +184,39 @@ let abcd1 = new Abcd2("thoufiq");
 abcd1.getName()
 
 // Getters and Setters
+class Abcd3 {
+  constructor(public username: string){
+    this.username = username
+  }
+
+  get name() {
+    return this.username;
+  }
+
+  set name(value: string){
+    this.username = value;
+  }
+}
+
+let abcd2 = new Abcd3("thoufiq")
+abcd2.name = "thoufi"
+console.log(abcd2.name)
+
+class Animal {
+  name:string;
+  constructor(name:string){
+    this.name = name
+  }
+  
+  get animalname(){
+    return this.name;
+  }
+
+  set animalnames(name:string) {
+    this.name = name
+  }
+}
+
+let an1 = new Animal("bhaalu")
+an1.animalnames = "hiran";
+console.log(an1.animalname);
