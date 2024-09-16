@@ -229,3 +229,7 @@ function bankai():string {
 // Named Function/ normal function
 // function bankai(): void {
 // }
+
+// Anonymous Function - function with no name
+// function(): void{
+// }
