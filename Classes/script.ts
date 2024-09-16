@@ -220,3 +220,5 @@ class Animal {
 let an1 = new Animal("bhaalu")
 an1.animalnames = "hiran";
 console.log(an1.animalname);
+
+// Functions
