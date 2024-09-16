@@ -240,6 +240,11 @@ function bankai():string {
 // }
 
 // Implicit return type - here we have not specified which type of value we are returning
-function amaterasu() {
-  return "hey";
-}
+// function amaterasu() {
+//   return "hey";
+// }
+
+// Explicit return type - here we have specified that we will return string type
+// function amaterasu():string {
+//   return "hey";
+// }
