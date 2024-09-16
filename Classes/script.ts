@@ -251,8 +251,20 @@ function bankai():string {
 
 // Optional Parameters /optional fields
 // these are fields where we add "?" to make it optional which is not necessary
-function user(name: string, age: number, gender?:string){
+// function user(name: string, age: number, gender?:string){
 
-}
+// }
 // if in any case we don't want to give one field or parameter then we use optional field
-user("thoufiq", 20)
+// user("thoufiq", 20)
+
+
+// Default Parameter - in this even when we don't give value still the default value 
+// will be set
+// function default_example(name: string = "default"){
+//   console.log(name);
+// }
+
+// default_example();
+// O/P: default
+// default_example("thoufiq");
+// O/P: thoufiq
