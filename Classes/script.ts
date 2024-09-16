@@ -306,3 +306,9 @@ stringornum = "thoufiq"
 stringornum = 12
 // Type '"thoufi"' is not assignable to type '"thoufiq" | 12'
 // stringornum = "thoufi"
+
+// Boolean literals
+let booly: true;
+booly = true
+// Type is not assignable to type 
+// booly = false
