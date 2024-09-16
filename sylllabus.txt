@@ -30,6 +30,14 @@ Classes
 Functions
 + Function Types
 + Optional and Default Parameters
+- Named Function
+- Anonymous Function
+- Arrow Function
+- Explicit Return Type
+- Implicit Return Type
+- Optional Parameters
+- Default Parameters
+- Rest Parameters
 
 Modules
 + Export and Import
