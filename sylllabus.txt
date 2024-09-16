@@ -30,3 +30,13 @@ Classes
 Functions
 + Function Types
 + Optional and Default Parameters
+
+Modules
++ Export and Import
+
+Type Assertions
+
+Literal Types
++ String Literal Types
++ Numeric Literal Types
++ Boolean Literal Types
