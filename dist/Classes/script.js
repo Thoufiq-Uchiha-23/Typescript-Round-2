@@ -162,3 +162,32 @@ class Abcd2 {
 let abcd1 = new Abcd2("thoufiq");
 abcd1.getName();
 // Getters and Setters
+class Abcd3 {
+    constructor(username) {
+        this.username = username;
+        this.username = username;
+    }
+    get name() {
+        return this.username;
+    }
+    set name(value) {
+        this.username = value;
+    }
+}
+let abcd2 = new Abcd3("thoufiq");
+abcd2.name = "thoufi";
+console.log(abcd2.name);
+class Animal {
+    constructor(name) {
+        this.name = name;
+    }
+    get animalname() {
+        return this.name;
+    }
+    set animalnames(name) {
+        this.name = name;
+    }
+}
+let an1 = new Animal("bhaalu");
+an1.animalnames = "hiran";
+console.log(an1.animalname);
