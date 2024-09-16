@@ -299,3 +299,10 @@ let number: 12;
 number = 12;
 // Type '13' is not assignable to type '12'
 // number = 13;
+
+let stringornum: "thoufiq" | 12;
+
+stringornum = "thoufiq"
+stringornum = 12
+// Type '"thoufi"' is not assignable to type '"thoufiq" | 12'
+// stringornum = "thoufi"
