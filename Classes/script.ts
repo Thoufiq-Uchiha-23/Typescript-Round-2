@@ -238,3 +238,8 @@ function bankai():string {
 // const rasengan = (): void => {
 //   console.log("hey");
 // }
+
+// Implicit return type - here we have not specified which type of value we are returning
+function amaterasu() {
+  return "hey";
+}
