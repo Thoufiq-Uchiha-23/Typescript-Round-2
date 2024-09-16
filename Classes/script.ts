@@ -225,3 +225,7 @@ console.log(an1.animalname);
 function bankai():string {
   return "hey";
 }
+
+// Named Function/ normal function
+// function bankai(): void {
+// }
