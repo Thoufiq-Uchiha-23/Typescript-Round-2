@@ -285,3 +285,11 @@ function assert() {
   // in TS we use this DOM as
   (document.querySelector("p") as HTMLDivElement)
 }
+
+// String Literals - means we are literally making the var assigned to a specific value
+// which can't be changed
+let stringy: "thoufiq";
+
+stringy = "thoufiq";
+// Type '"thoufi"' is not assignable to type '"thoufiq"'
+// stringy = "thoufi"
