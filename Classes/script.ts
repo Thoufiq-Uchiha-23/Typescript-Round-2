@@ -248,3 +248,11 @@ function bankai():string {
 // function amaterasu():string {
 //   return "hey";
 // }
+
+// Optional Parameters /optional fields
+// these are fields where we add "?" to make it optional which is not necessary
+function user(name: string, age: number, gender?:string){
+
+}
+// if in any case we don't want to give one field or parameter then we use optional field
+user("thoufiq", 20)
