@@ -222,3 +222,6 @@ an1.animalnames = "hiran";
 console.log(an1.animalname);
 
 // Functions
+function bankai():string {
+  return "hey";
+}
