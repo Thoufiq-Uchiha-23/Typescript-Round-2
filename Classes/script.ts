@@ -278,3 +278,10 @@ function names(...names: string[]) {
 }
 
 names("harsh", "sumit", "raghav", "thoufiq");
+
+// Type Assertions
+function assert() {
+  // const p = document.querySelector("p")
+  // in TS we use this DOM as
+  (document.querySelector("p") as HTMLDivElement)
+}
